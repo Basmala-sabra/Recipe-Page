@@ -25,13 +25,13 @@ OR: View Project Online (https://basmala-sabra.github.io/Recipe-Page/)
 
 ## Future Enhancements
 
+- Enhance responsiveness for better mobile compatibility.
 - Implement a dark mode toggle.
 
-- Enhance responsiveness for better mobile compatibility.
 
 ## License
 
-This project is open-source, so feel free to modified or distributed it.
+This project is open-source. You are free to modify, distribute, Contributions are welcome!
 
 ## Author
 

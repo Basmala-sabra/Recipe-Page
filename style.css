@@ -58,6 +58,7 @@ main:not(h1):not(h2) {
 h2.Preparation-heading {
   color: hsl(332, 51%, 32%);
   padding-left: 0.8rem;
+  font-size: 500;
 }
 span.preparation-time {
   width: 35rem;
@@ -154,4 +155,7 @@ table tr::after {
 }
 table tr {
   margin: 0 1rem 0 1rem;
+}
+table {
+  margin: 0 2rem 0 2rem;
 }
