@@ -53,7 +53,6 @@ p.omelette-description {
 }
 main:not(h1):not(h2) {
   font-family: Outfit;
-  font-weight: 340;
 }
 h2.Preparation-heading {
   color: hsl(332, 51%, 32%);
