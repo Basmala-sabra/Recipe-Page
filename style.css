@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f3e5d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  background-color: #ffffff;
+  width: 42rem;
+  height: 96rem;
+  margin: 5rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  display: flex;
+  width: 38rem;
+  height: 16rem;
+  margin-top: 1.7rem;
+  border-radius: 0.6rem;
+}
+h1 {
+  padding-left: 1.8rem;
+  margin-top: 1.2rem;
+  font-family: "Young Serif", serif;
+  font-weight: 380;
+  font-style: normal;
+}
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 360;
+  font-style: normal;
+}
+p.omelette-description {
+  width: 42rem;
+  padding-left: 1.8rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.3em;
+}
+main:not(h1):not(h2) {
+  font-family: Outfit;
+  font-weight: 340;
+}
+h2.Preparation-heading {
+  color: hsl(332, 51%, 32%);
+  padding-left: 0.8rem;
+}
+span.preparation-time {
+  width: 35rem;
+  height: 10rem;
+  background-color: hsl(330, 100%, 98%);
+  margin: 2rem 0 0 1.4rem;
+  padding: 1rem 0 0 0.8rem;
+  border-radius: 0.8rem;
+}
+.preparation-time-list {
+  margin-top: 0.7rem;
+  padding-left: 2.5rem;
+  line-height: 1.8em;
+}
+.preparation-time-list li {
+  padding-left: 1.3rem;
+}
+
+ul li::marker {
+  font-size: 0.6rem;
+}
+.preparation-time-list li::marker {
+  color: hsl(332, 51%, 32%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+h2.ingredients-heading {
+  margin-top: 1.4rem;
+  padding-left: 1.8rem;
+}
+.ingredients-list {
+  padding-left: 3rem;
+}
+.ingredients-list li {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  line-height: 0.7em;
+}
+.ingredients-list li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 0.8rem;
+}
+hr {
+  opacity: 0.3;
+  margin: 1.8rem 2rem 0 1.7rem;
+}
+h2.instructions-heading {
+  margin-top: 1.6rem;
+  padding-left: 2rem;
+}
+.instructions-list {
+  margin-top: 1rem;
+  padding-left: 3.4rem;
+}
+.instructions-list li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+
+.instructions-list li {
+  margin-top: 0.7rem;
+  padding-left: 0.6rem;
+  line-height: 1.5em;
+}
+h2.nutrition-heading {
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+}
+.nutrition-paragraph {
+  padding-left: 2rem;
+  margin: 1rem 0 1.3rem 0;
+}
+
+.nutrition-table {
+  border-collapse: collapse; /* Merges cell borders */
+}
+table td {
+  padding-left: 4rem;
+  border-bottom: 0.01rem solid #ddd;
+}
+table tr:last-child td {
+  border-bottom: none;
+}
+table tr::after {
+  content: " ";
+  display: block;
+  height: 2.5rem;
+}
+
+.weight {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+table tr {
+  margin: 0 1rem 0 1rem;
+}
