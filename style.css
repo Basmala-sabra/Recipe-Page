@@ -59,7 +59,7 @@ h2.Preparation-heading {
   padding-left: 0.8rem;
   font-size: 500;
 }
-span.preparation-time {
+div.preparation-time {
   width: 35rem;
   height: 10rem;
   background-color: hsl(330, 100%, 98%);
